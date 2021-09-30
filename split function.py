@@ -1,0 +1,10 @@
+print ("enter five numbers")
+a,b,c,d,e = input().split()
+b,a = a,b
+print ("swapped values", a,b)
+#print(a,b)
+print("the unswapped values are")
+print("c=",c)
+print("d=",d)
+print("e=",e)
+print("thankyou")
